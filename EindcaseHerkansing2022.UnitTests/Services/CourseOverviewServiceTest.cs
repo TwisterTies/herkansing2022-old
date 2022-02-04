@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Threading.Tasks;
 using EindcaseHerkansing2022.Interfaces.Interfaces.CourseOverview;
 using EindcaseHerkansing2022.Models;
@@ -25,7 +26,6 @@ public class CourseOverviewServiceTest
     {
         // Arrange
         var courseOverview = new List<CourseOverview>();
-        if (courseOverview == null) throw new ArgumentNullException(nameof(courseOverview));
         _courseOverviewRepository.Setup(x => x.GetOverviewOfCourses()).ReturnsAsync(courseOverview);
         
         // Act
@@ -33,5 +33,44 @@ public class CourseOverviewServiceTest
         
         // Assert
         Assert.Equal(courseOverview, result);
+    }
+    
+    [Fact]
+    public async Task GetCurrentWeekOfCourses_ShouldReturnAListOfCoursesInTheGivenWeek()
+    {
+        // Arrange
+        var initialCourseOverviews = new List<CourseOverview>
+        {
+            new ()
+            {
+                Title = "Overview1",
+                Duration = 2,
+                StartDate = new DateTime(2022, 04, 02),
+            },
+            new ()
+            {
+                Title = "Overview2",
+                Duration = 2,
+                StartDate = new DateTime(2020, 01, 01)
+            }
+        };
+        
+        var expected = new List<CourseOverview>
+        {
+            new ()
+            {
+                Title = "Overview1",
+                Duration = 2,
+                StartDate = new DateTime(2022, 04, 02),
+            }
+        };
+        const int selectedWeekNumber = 5;
+        _courseOverviewRepository.Setup(x => x.GetCurrentWeekOverviewOfCourses(selectedWeekNumber)).ReturnsAsync(expected);
+        
+        // Act
+        var result = await _courseOverviewService.GetCurrentWeekOverviewOfCourses(selectedWeekNumber);
+        
+        // Assert
+        Assert.NotEqual(result, initialCourseOverviews);
     }
 }

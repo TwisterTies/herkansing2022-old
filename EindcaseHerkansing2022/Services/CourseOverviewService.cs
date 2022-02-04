@@ -16,4 +16,10 @@ public class CourseOverviewService : ICourseOverviewService
     {
         return await _courseOverviewRepository.GetOverviewOfCourses();
     }
+    
+    public async Task<IEnumerable<CourseOverview>> GetCurrentWeekOverviewOfCourses(int weekNumber)
+    {
+        return await _courseOverviewRepository.GetCurrentWeekOverviewOfCourses(weekNumber);
+    }
+    
 }
