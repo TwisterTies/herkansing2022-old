@@ -11,12 +11,10 @@
 
 4. De backend draait op Localhost:7272, de frontend draait op Localhost:4200.
 
-5. Mitst nodig, pas de baseUrl aan in de environment.ts file van de front-end applicatie.
+5. Start de backend applicatie op.
 
-6. Start de backend applicatie op.
+6. Start de frontend applicatie op.
 
-7. Start de frontend applicatie op.
-
-8. Er zou nu een connectie moeten zijn met de backend applicatie vanuit de frontend applicatie.
+7. Er zou nu een connectie moeten zijn met de backend applicatie vanuit de frontend applicatie.
 
 LET OP: De database is nog niet voorzien van data, upload eerst een bestand om de database te vullen. Daarna zou er een overview aan cursussen moeten zijn.
