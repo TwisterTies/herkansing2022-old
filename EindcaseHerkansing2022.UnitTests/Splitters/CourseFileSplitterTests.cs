@@ -67,7 +67,7 @@ Startdatum: 22/01/2021";
             $"Titel: C# Programmeren\n" +
             $"Cursuscode: CNETIN\n" +
             $"Duur: 5 dagen\n" +
-            $"Startdatum: 01/01/2020",
+            $"Startdatum: 22/03/2021",
 
             $"Titel: Blazor\n" +
             $"Cursuscode: BLZ\n" +
@@ -87,7 +87,7 @@ Startdatum: 22/01/2021";
         durationSplitter.Setup(ds => ds.SplitDuration("Duur: 2 dagen")).Returns(2);
         
         startDateSplitter.Setup(sd => sd.SplitStartDate("Startdatum: 22/03/2021")).Returns(new DateTime(2021, 03, 22));
-        startDateSplitter.Setup(sd => sd.SplitStartDate("Startdatum: 22/01/2021")).Returns(new DateTime(2021, 1, 22));
+        startDateSplitter.Setup(sd => sd.SplitStartDate("Startdatum: 22/01/2021")).Returns(new DateTime(2021, 01, 22));
         var courseFileSplitter = new CourseFileSplitter(codeSplitter.Object, durationSplitter.Object, startDateSplitter.Object, titleSplitter.Object, courseSplitter.Object);
         return courseFileSplitter;
     }

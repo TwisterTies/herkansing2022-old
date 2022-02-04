@@ -6,34 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acf908fc-dbde-4e02-9c9a-b06a28b1933c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/Splitters/CourseFileSplitterTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EindcaseHerkansing2022/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EindcaseHerkansing2022/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/Services/CourseOverviewServiceTest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/Services/CourseOverviewServiceTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/Splitters/CourseFileSplitterTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/Splitters/CourseFileSplitterTests.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.UnitTests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.UnitTests.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/EindcaseHerkansing2022.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/ref/EindcaseHerkansing2022.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/bin/Debug/net6.0/ref/EindcaseHerkansing2022.UnitTests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/EindcaseHerkansing2022.UnitTests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/ref/EindcaseHerkansing2022.UnitTests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.UnitTests/obj/Debug/net6.0/ref/EindcaseHerkansing2022.UnitTests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/Controllers/CourseOverviewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/Controllers/CourseOverviewController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/Interfaces/Interfaces.CourseOverview/ICourseOverviewRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/Interfaces/Interfaces.CourseOverview/ICourseOverviewRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/Interfaces/Interfaces.CourseOverview/ICourseOverviewService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/Interfaces/Interfaces.CourseOverview/ICourseOverviewService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/Repositories/CourseOverviewRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/Repositories/CourseOverviewRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/Services/CourseOverviewService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/Services/CourseOverviewService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/bin/Debug/net6.0/EindcaseHerkansing2022.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/bin/Debug/net6.0/EindcaseHerkansing2022.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/bin/Debug/net6.0/EindcaseHerkansing2022.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/bin/Debug/net6.0/EindcaseHerkansing2022.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/bin/Debug/net6.0/ref/EindcaseHerkansing2022.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/bin/Debug/net6.0/ref/EindcaseHerkansing2022.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/EindcaseHerkansing2022.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/ref/EindcaseHerkansing2022.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/Debug/net6.0/ref/EindcaseHerkansing2022.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/EindcaseHerkansing2022/obj/staticwebassets.pack.sentinel" afterDir="false" />
@@ -106,7 +92,7 @@
       <updated>1643899752658</updated>
       <workItem from="1643899755404" duration="79000" />
       <workItem from="1643960979597" duration="12457000" />
-      <workItem from="1643974861528" duration="1098000" />
+      <workItem from="1643974861528" duration="3476000" />
     </task>
     <servers />
   </component>

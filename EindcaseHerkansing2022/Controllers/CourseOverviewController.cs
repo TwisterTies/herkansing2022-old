@@ -21,7 +21,7 @@ public class CourseOverviewController : Controller
         return await _courseOverviewService.GetOverviewOfCourses();
     }
 
-    [HttpGet ("api/[controller]/per-week")]
+    [HttpGet ("{weekNumber:int}")]
     public async Task<IEnumerable<CourseOverview>> GetOverviewOfWeek(int weekNumber)
     {
         return await _courseOverviewService.GetCurrentWeekOverviewOfCourses(weekNumber);
