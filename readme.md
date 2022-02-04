@@ -6,7 +6,7 @@
 
 2. Zorg ervoor dat er een LocalDB database is aangemaakt met naam 'herkansing2022bryan'.
 
-3. Start de backend applicatie, run daarna een terminal met het volgende commando:
+3. Open de backend solution, run daarna een terminal met het volgende commando:
  - Update-Database
 
 4. De backend draait op Localhost:7272, de frontend draait op Localhost:4200.
